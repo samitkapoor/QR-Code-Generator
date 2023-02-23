@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 // bodyparser is used to access the data in the request
 const bp = require("body-parser");
@@ -13,6 +14,8 @@ app.set("view engine", "ejs");
 // some boilerplate code necessary to use body parser
 app.use(bp.urlencoded({ extended: false }));
 app.use(bp.json());
+
+app.use(express.static(path.join(__dirname, "/public")));
 
 // initial page will be our index.ejs
 // res.render automatically looks inside the views folder and that is why we didn't mention it explicitly

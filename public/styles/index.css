@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(154, 207, 151);
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+input {
+    background-color: transparent;
+
+    width: 50vw;
+
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+    padding: 20px 30px;
+
+    font-size: 20px;
+
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+button {
+    padding: 20px 40px;
+
+    border-radius: 20px;
+    border: none;
+
+    background-color: rgba(0, 128, 0, 0.45);
+
+    color: rgba(0, 0, 0, 0.437);
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 150ms;
+}
+
+button:hover {
+    padding: 20px 60px;
+    color: black;
+    background-color: rgba(0, 128, 0, 0.326);
+}
+
+button:active {
+    padding: 15px 40px;
+    background-color: rgba(0, 128, 0, 0.287);
+}
