@@ -3,6 +3,8 @@ A QR-Code-Generator made using node.js
 
 ![banner](https://user-images.githubusercontent.com/77121931/220983375-92083423-fa95-40e1-a3fc-bf3e689c5c13.png)
 
+https://user-images.githubusercontent.com/77121931/220984760-03356d5c-0564-48e6-bf55-15c8c622babf.mp4
+
 ## Follow the steps below to run this project
 - Make sure you have node.js and related programs installed on your computer.
 - Clone this repository by following the steps mentioned
